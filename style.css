@@ -43,6 +43,44 @@ li {
 
 
 
+.video-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hoverover {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .video-container:hover .hoverover {
+    opacity: 1;
+    
+  }
+  
+  .featured-video__clip {
+    width: 500px;
+    height: auto;
+    display: block;
+  }
+
+
+
+
+
 
 /*
 @media (min-aspect-ratio: 16/9) {
