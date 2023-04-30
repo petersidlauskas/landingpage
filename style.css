@@ -72,9 +72,17 @@ li {
   }
   
   .featured-video__clip {
-    width: 300px;
+    width: 400px;
     
     display: block;
+  }
+
+
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
   }
 
 
